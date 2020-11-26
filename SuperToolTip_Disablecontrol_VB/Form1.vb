@@ -2,19 +2,13 @@
 Imports Syncfusion.Windows.Forms.Tools
 
 Public Class Form1
-    Inherits Form
+    Inherits MetroForm
+
+
     Private superToolTip1 As SuperToolTip
-    Private buttonAdv1 As ButtonAdv
     Public Sub New()
         InitializeComponent()
         superToolTip1 = New SuperToolTip()
-        buttonAdv1 = New ButtonAdv()
-        buttonAdv1.Enabled = False
-        buttonAdv1.Name = "buttonAdv1"
-        buttonAdv1.Location = New System.Drawing.Point(296, 179)
-        buttonAdv1.Size = New System.Drawing.Size(165, 82)
-        buttonAdv1.Text = "ButtonAdv"
-        Me.Controls.Add(buttonAdv1)
 
     End Sub
     Private IsShown As Boolean = False

@@ -12,21 +12,13 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 namespace Supertooltip
 {
-    public partial class Form1 : Form
+    public partial class Form1 : MetroForm
     {
         private SuperToolTip superToolTip1;
-        private ButtonAdv buttonAdv1;
         public Form1()
         {
            InitializeComponent();
            superToolTip1 = new SuperToolTip();
-           buttonAdv1 = new ButtonAdv();
-           buttonAdv1.Enabled = false;
-           buttonAdv1.Name = "buttonAdv1";
-           buttonAdv1.Location = new System.Drawing.Point(296, 179);
-           buttonAdv1.Size = new System.Drawing.Size(165, 82);
-           buttonAdv1.Text = "ButtonAdv";
-           this.Controls.Add(buttonAdv1);
 
         }
         bool IsShown = false;
