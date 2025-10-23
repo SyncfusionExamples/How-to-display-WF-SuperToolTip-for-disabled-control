@@ -1,2 +1,6 @@
-# How-to-display-WF-SuperToolTip-for-disabled-control
-This repository contains the sample that how to display the WinForms SuperToolTip for disabled control.
+# How to Display WinForms SuperToolTip for Disabled Control
+This repository provides a detailed example of how to display the WinForms SuperToolTip for a disabled control. In typical scenarios, when a control is disabled in a Windows Forms application, tooltips do not appear by default. However, there are cases where you may want to provide additional information or guidance to users even when the control is not active. This is especially useful in complex forms where certain fields are disabled based on conditions, and you want to explain why they are disabled or what needs to be done to enable them.
+
+The SuperToolTip control from Syncfusion offers advanced tooltip features such as rich text formatting, images, and custom layouts, making it ideal for delivering detailed information. This sample demonstrates how to configure and display a SuperToolTip for disabled controls by handling mouse events and customizing tooltip behavior. You will learn how to attach the tooltip programmatically, manage its appearance, and ensure it works seamlessly even when the control is not interactive.
+
+This guide walks you through practical steps to enhance user experience by providing helpful tooltips in all scenarios.
